@@ -1,23 +1,10 @@
-# import smtplib
 import os
 import smtplib
 import imghdr
 from email.message import EmailMessage
 EMAIL_ADDRESS=os.environ.get('Email_mail')
 EMAIL_PASSWORD=os.environ.get('Email_pass')
-# with smtplib.SMTP('smtp.gmail.com', 587) as smtp:
-    # smtp.ehlo()
-    # smtp.starttls()
-    # smtp.ehlo()
 
-    # smtp.login(a, b)
-
-    # subject = 'testing via python'
-    # body = 'you r done for now'
-    # msg = f'Subject: {subject}\n\n{body}'
-
-        # logging.info('Sending Email...')
-    # smtp.sendmail("pavan@gmail.com", a, msg)
 path=input("Enter path to switch the directory :\t")
 while True :
 	try :
