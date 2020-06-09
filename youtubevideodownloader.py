@@ -27,9 +27,10 @@
 
 	
 import pytube
-link = "https://youtu.be/nKBslba9E3U"
+link = input("Enter the link :\t")
 yt = pytube.YouTube(link)
 stream = yt.streams
 print(stream.filter(progressive=True))
-stream[1].download()
+n=int(input("Enter stream no :\t"))
+stream[n].download()
 print("Completed")
