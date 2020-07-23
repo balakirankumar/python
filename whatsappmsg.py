@@ -6,4 +6,4 @@
 
 
 import pywhatkit
-pywhatkit.sendwhatmsg("+918106865608","Hi bro",17,49)
+pywhatkit.sendwhatmsg("Reciever's Number","message",time )
