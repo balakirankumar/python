@@ -4,7 +4,7 @@
 
 
 import moviepy.editor
-video_name=input("enter Video name :\t")
+video_name=input()
 video=moviepy.editor.VideoFileClip(video_name)
 audio=video.audio
 audio_outname=input("Enter output file name :\t")
