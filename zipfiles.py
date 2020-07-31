@@ -4,5 +4,7 @@ import zipfile
 # with zipfile.ZipFile('files.zip','w',compression=zipfile.ZIP_DEFLATED) as f:
 	# f.write('paths.txt')
 	# f.write('YouTube.mp4')
-with zipfile.ZipFile('C:/Users/BALA/Desktop/developer_survey_2019.zip','r') as f:
-	f.extractall('C:/Users/BALA/Desktop/Pandas/data')
+zipfile_name=input('Enter path to folder')
+extract_file_destination=input('Extract folder location')
+with zipfile.ZipFile(zipfile_name,'r') as f:
+	f.extractall(extract_file_destination)
