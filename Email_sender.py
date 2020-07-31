@@ -1,3 +1,8 @@
+## __AUTHOR__   :   BalaKiranKumar
+#  require Modules to be installed
+# pip install smtplib
+# pip install imghdr
+
 import os
 import smtplib
 import imghdr
