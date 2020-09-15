@@ -42,6 +42,7 @@ while a :
 		manual_upload=[]
 	if multifiles == 2 :
 		manual_upload=input("enter filenames seperated by Double spaces :\t").split()
+		file_extension=""
 	
 	
 	files_upload=comp_upload+manual_upload
