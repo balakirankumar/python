@@ -13,25 +13,25 @@
 
 #FOR PLAYLIS
 
-import pytube
-from pytube import Playlist
-playlist = Playlist("https://www.youtube.com/playlist?list=PL-osiE80TeTuRUfjRe54Eea17-YfnOOAx")
-for i in playlist:
-	yt=pytube.YouTube(i)
-	stream=yt.streams.first()
-	stream.download()
+#import pytube
+#from pytube import Playlist
+#playlist = Playlist("https://www.youtube.com/playlist?list=PL-osiE80TeTuRUfjRe54Eea17-#YfnOOAx")
+#for i in playlist:
+#	yt=pytube.YouTube(i)
+#	stream=yt.streams.first()
+#	stream.download()
 
-print('Done')
+#print('Done')
 #FOR SINGLE DOWNLOADS
 
 
 	
-# import pytube
-# link = input("Enter the link :\t")
-# yt = pytube.YouTube(link)
-# stream = yt.streams
-# for i in stream :
-	# print(i)
-# n=int(input("Enter stream no :\t"))
-# stream[n].download()
-# print("Completed")
+import pytube
+link = input("Enter the link :\t")
+yt = pytube.YouTube(link)
+stream = yt.streams
+for i in stream :
+       print(i)
+n=int(input("Enter stream no :\t"))
+stream[n].download()
+print("Completed")
